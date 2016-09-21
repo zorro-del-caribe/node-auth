@@ -1,0 +1,37 @@
+{
+  "name": "zdc-auth",
+  "version": "1.0.0",
+  "description": "nodejs authentication client for zdc platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node ./test/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorro-del-caribe/node-auth.git"
+  },
+  "keywords": [
+    "zdc",
+    "client",
+    "http",
+    "auth",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorro-del-caribe/node-auth/issues"
+  },
+  "homepage": "https://github.com/zorro-del-caribe/node-auth#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "stampit": "^2.1.2",
+    "superagent": "^2.3.0"
+  },
+  "devDependencies": {
+    "nock": "^8.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
